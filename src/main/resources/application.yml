@@ -1,0 +1,28 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          keycloak:
+            client-id: iotflux-service
+            client-secret: ff7e376a-0205-46e2-9980-6476fe90b3f7
+            #clientName: Keycloak
+            #authorization-grant-type: authorization_code
+            #redirectUriTemplate: '{baseUrl}/login/oauth2/code/{registrationId}'
+            #scope: openid
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:9001/auth/realms/dev
+            #authorization-uri: http://localhost:9001/auth/realms/dev/protocol/openid-connect/auth
+            #token-uri: http://localhost:9001/auth/realms/dev/protocol/openid-connect/token
+            #user-info-uri: http://localhost:9001/auth/realms/dev/protocol/openid-connect/userinfo
+            #jwk-set-uri: http://localhost:9001/auth/realms/dev/protocol/openid-connect/certs
+            #user-name-attribute: preferred_username
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:9001/auth/realms/dev/protocol/openid-connect/certs
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+    at.codetales.iotflux: DEBUG

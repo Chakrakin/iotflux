@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "aab716b8-11f4-4c74-aaed-53b37389eb8c",
+		"_postman_id": "db4f4d10-4998-480f-9cf3-f81b2a5f2706",
 		"name": "WebFlux testing",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -314,6 +314,48 @@
 					"response": []
 				}
 			]
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": [
+			{
+				"key": "accessToken",
+				"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJJWUZpa2tsalVNcWUtT1NycTJKX1ViZkw3TEttWS1leTJvanl2NkhZVk1JIn0.eyJqdGkiOiI1MGQzZThiYS0wNzBiLTQ4NjItOWI3ZC0zMWM2OWI4ZDIyM2QiLCJleHAiOjE1NTUwNzI3NzQsIm5iZiI6MCwiaWF0IjoxNTU1MDcyNDc0LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjkwMDEvYXV0aC9yZWFsbXMvZGV2IiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjYzOWM0YWQ4LTRmNTktNDFjOC04MzA4LTgyNWMyMDhiYzM4ZCIsInR5cCI6IkJlYXJlciIsImF6cCI6ImlvdGZsdXgtc2VydmljZSIsImF1dGhfdGltZSI6MTU1NTA3MjQ3Mywic2Vzc2lvbl9zdGF0ZSI6ImJhZGUwMWE2LThmMTEtNDBjNy04NzNkLWE4YTk3NGZiZGFlZCIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImlvdGZsdXgtc2VydmljZSI6eyJyb2xlcyI6WyJ1c2VyIl19LCJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6Im9wZW5pZCBlbWFpbCBwcm9maWxlIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJ1c2VyX25hbWUiOiJ1c2VyMSIsInByZWZlcnJlZF91c2VybmFtZSI6InVzZXIxIn0.FJA7o7_UugedVtLS6aLAz3R0qiCBZSmhlTVgxdaZvFciQgb8FTybjB_flQvO6BMo0VO8rsRlis0ox6KmxS9PIcExxE3xHv-atEkwy02SBHgGbvAsoFQltNvQJpB9DVpQjr-3roAoKw1jD8APyJs7hVERIks13L8I1GCBeTmnZLc1aSKh_fr0zk-kyBzb77GF2Hx7wLS9vPIVd-0jNNVp9Qn7QjsC286Q_AAp2g-3zyqlpxppfNveEkRCBfa4pmHWlQDpu5NzfRiJt0ewkiBDRMDmsyUwY0Mm1sppW88yu4BDh5wAFIkZrn1LJ3f8Jej3da7e4TRCIjyXJCKEd0GD1w",
+				"type": "string"
+			},
+			{
+				"key": "tokenType",
+				"value": "bearer",
+				"type": "string"
+			},
+			{
+				"key": "addTokenTo",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "555d71cf-8a1a-4f93-bcd3-e4908e967d56",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "a16c0c7e-f0fb-4d70-849a-f112a6325187",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
 		}
 	]
 }
