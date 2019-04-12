@@ -1,5 +1,3 @@
-Example TDD with Spring Webflux
-
 ## Prerequisites:
 - Docker
 
